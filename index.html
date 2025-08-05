@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <title>MoetWears - Fashion Hub</title> 
+
+    <style>.hero
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #111;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration:none;
+      margin-left: 1.5rem;
+    }
+
+   .hero {
+  background: url(https://i.pinimg.com/originals/12/34/56/1234567890abcdef.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 200%; height: 200%;
+      background: rgba(0,0,0,0.5); /* dark overlay */
+      z-index: 0;
+    }
+
+
+
+
+    .hero h2 {
+      font-size: 3rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .products {
+      padding: 3rem 2rem;
+      background-color: #f9f9f9;
+    }
+
+    .products h3 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2rem;
+    }
+
+    .product {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .product img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .product h4 {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+
+    .contact {
+      background-color: #fff;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+
+    .contact h3 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact p {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      color: #555;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+
+    .social-links a {
+      text-decoration: none;
+      color: #111;
+      background-color: #f1f1f1;
+      padding: 0.75rem 1.25rem;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .social-links a:hover {
+      background-color: #ddd;
+    }
+
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>MoetWears</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Discover Your Style with MoetWears</h2>
+  </section>
+
+  <section class="products">
+    <h3>Featured Fashion Styles</h3>
+    <div class="product-grid">
+      <div class="product">
+        <img src="https://www.pinterest.com/pin/35817759531393756/" alt="Dress" />
+        <h4>Summer Floral Dress</h4>
+
+      </div>
+      <div class="product">
+        <img src="https://www.pinterest.com/pin/155303888063785912/" alt="Street Style" />
+        <h4>Urban Street Style</h4>
+
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/400x400/?fashion,jacket" alt="Jacket" />
+        <h4>Classic Winter Jacket</h4>
+
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/400x400/?fashion,blazer" alt="Blazer" />
+        <h4>Elegant Blazer Look</h4>
+      </div>
+
+      <div class="product">
+        <img src="https://source.unsplash.com/400x400/?fashion,denim" alt="Denim" />
+        <h4>Casual Denim Fit</h4>
+        
+      </div>
+      <div class="product">
+        <img src="https://source.unsplash.com/400x400/?fashion,gown" alt="Evening Gown" />
+        <h4>Evening Gown Elegance</h4>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h3>Contact Us</h3>
+    <p>Have a question or feedback? Connect with us on social media!</p>
+    <div class="social-links">
+      <a href="https://instagram.com/moetwears" target="_blank">Instagram @moetwears</a>
+      <a href="https://wa.me/+2347037068939" target="_blank">WhatsApp @moetwears</a>
+      <a href="https://facebook.com/moetwears" target="_blank">Facebook @moetwears</a>
+    </div>
+  </section>.
+}
+<section class="contact">
+  <h3>Contact Us</h3>
+  <p>Have a question or feedback? We'd love to hear from you.</p>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+
+  <div class="social-media">
+    <h4>Follow Us</h4>
+    <a href="https://www.instagram.com/moetwears" target="_blank">Instagram: @moetwears</a>
+    <a href="https://wa.me/+1234567890" target="_blank">WhatsApp: @moetwears</a>
+    <a href="https://www.facebook.com/moetwears" target="_blank">Facebook: @moetwears</a>
+  </div>
+</section>
+
+
+
+  <footer>
+    &copy; 2025 MoetWears. All rights reserved.
+  </footer>
+
+</body>
+</html>
