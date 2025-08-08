@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JosFarm - Poultry Farming</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+    header {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 90%;
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 10px 20px;
+      border-radius: 10px;
+      color: white;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      gap: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://t3.ftcdn.net/jpg/15/97/01/22/240_F_1597012278_KM4ylz7TRjwlLeVwQ3QHov1W77QPJTQJ.jpg') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .tagline {
+      position: absolute;
+      bottom: 20px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .service-item {
+      background: white;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .service-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 10px;
+    }
+    .social-icons a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2em;
+    }
+    .social-icons a:hover {
+      color: #ffcc00;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="hero">
+    <header>
+      <h1>JosFarm</h1>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+    <div class="tagline">Fresh Eggs, Healthy Chicken, Quality Feed</div>
+  </div>
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-item">
+        <img src="https://i0.wp.com/media.premiumtimesng.com/wp-content/files/2017/01/chicken.jpg?w=670&ssl=1" alt="Healthy Chickens">
+        <h3>Healthy Chickens</h3>
+        <p>We raise strong and healthy poultry under the best conditions.</p>
+      </div>
+      <div class="service-item">
+        <img src="https://www.allaboutfeed.net/app/uploads/2021/06/IMG_shutterstock_507760822_web-848x565.jpg" alt="Quality Chicken Feeds">
+        <h3>Quality Chicken Feeds</h3>
+        <p>Our chickens are fed with high-quality, nutritious feed for optimal growth.</p>
+      </div>
+      <div class="service-item">
+        <img src="https://dailytrust.com/wp-content/uploads/2023/03/eggs.jpg" alt="Fresh Eggs">
+        <h3>Fresh Eggs</h3>
+        <p>We deliver farm-fresh eggs packed with natural goodness daily.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery">
+    <h2>Farm Gallery</h2>
+    <div class="gallery">
+      <!-- Existing Images -->
+      <img src="https://cdn.punchng.com/wp-content/uploads/2019/06/03014009/poultry-business.jpg" alt="Chickens">
+      <img src="https://dailytrust.com/wp-content/uploads/2023/03/eggs.jpg" alt="Eggs">
+      <img src="https://www.dfopoultry.com/wp-content/uploads/20250409135353.jpg" alt="Poultry Workers">
+      <img src="https://thehomesteadingrd.com/wp-content/uploads/2024/06/How-to-build-a-covered-chicken-run-cover.jpg" alt="Chicken Coop">
+      <img src="https://d1lg8auwtggj9x.cloudfront.net/images/dw_cs_aviary12.width-820.jpg" alt="Layer Birds">
+      <img src="https://www.allaboutfeed.net/app/uploads/2021/06/IMG_shutterstock_507760822_web-848x565.jpg" alt="Feeds and Supplies">
+
+      <!-- Extra Images -->
+      <img src="https://t4.ftcdn.net/jpg/09/37/70/07/240_F_937700727_ml0aoG3at1bp85pxnJigTHoAjlgEvFyC.jpg" alt="Poultry House">
+      <img src="https://nairametrics.com/wp-content/uploads/2021/06/Poultry-farming.jpg?resize=750,375" alt="Poultry Farming">
+      <img src="https://ghanatalksbusiness.com/wp-content/uploads/2020/05/Poultry-farmers-650x375.jpg" alt="Poultry Farmers">
+      <img src="https://fairplaymovement.org/wp-content/uploads/2021/04/Beverly900-1.jpg" alt="Poultry Farmer Portrait">
+    </div>
+  </section>
+
+  <footer>
+    <p>Follow Us On</p>
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://twitter.com" target="_blank">Twitter</a>
+    </div>
+    <p>&copy; 2025 JosFarm. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
